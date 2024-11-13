@@ -68,3 +68,19 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Auth Dashboard
+
+## Docker Setup
+
+1. Build the Docker image:
+```bash
+docker build -t auth-dashboard .
+```
+
+2. Run the container:
+```bash
+docker run -p 3000:80 auth-dashboard
+```
+
+The application will be available at http://localhost:3000
